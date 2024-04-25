@@ -16,14 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-<<<<<<< HEAD
         python-version: 3.9  # Choose a Python version compatible with Ansible
-=======
-        python-version: 3.8  # Choose a Python version compatible with Ansible
-        
-    - name: Install dependencies
-      run: pip install boto3 botocore
->>>>>>> ecee82c367660a91ede90bd92a662ecf98705804
     
     - name: Clone ansible
       uses: GuillaumeFalourd/clone-github-repo-action@v2.3
